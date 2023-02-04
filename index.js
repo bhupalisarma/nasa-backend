@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 
-const uri = "mongodb+srv://bhupalisarma:Bhupali%40369@cluster0.aqpmhff.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://bhupalisarma:Bhupali@369@cluster0.aqpmhff.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
